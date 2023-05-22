@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         custom: ['Raleway'],
         poppins: ['Poppins'],
+        roboto: ['Roboto'],
       },
       fontWeight: {
         custom: ['400', '600', '800'],

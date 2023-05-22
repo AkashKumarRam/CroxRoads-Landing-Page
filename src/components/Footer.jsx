@@ -15,8 +15,8 @@ const Footer = () => {
         <p className="font-poppins text-white">
         Discover people a new way and<br/> gang up a friendship for life.
         </p>
-       <div className="flex cursor-pointer max-sm:hidden">
-          <img src={Instagram} alt="Intagram-Logo" />
+       <div className="flex flex-row items-center justify-start space-x-3 cursor-pointer max-sm:hidden">
+          <img className="sm:h-5" src={Instagram} alt="Intagram-Logo" />
           <img src={LinkedIn} alt="LinkedIn-Logo" />
           <img src={Facebook} alt="Facebook-Logo" />
           <img src={Twitter} alt="Twitter-Logo" />
