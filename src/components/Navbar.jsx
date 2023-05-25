@@ -6,18 +6,18 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   return (
     <>
-      <div className="flex items-center justify-between pl-8 pr-8 h-[4rem] bg-[#F5F0F8] max-sm:hidden">
+      <div className="flex items-center justify-between pl-8 pr-8 h-[4rem] bg-[#F5F0F8] max-sm:hidden pt-6">
         <div className="max-sm:w-full max-sm:flex max-sm:items-center max-sm:justify-center">
           <img src={CroxLogo} alt="croxLogo" />
         </div>
         <div className="space-x-5">
-          <Link className="font-cutom font-medium max-sm:hidden" to="/">
+          <Link className="font-cutom font-medium max-sm:hidden pb-2 hover:border-b-2 hover:border-b-slate-800" to="/">
             Home
           </Link>
-          <Link className="font-cutom font-medium max-sm:hidden" to="/faq">
+          <Link className="font-cutom font-medium max-sm:hidden pb-2 hover:border-b-2 hover:border-b-slate-800" to="/faq">
             FAQ
           </Link>
-          <Link className="font-cutom font-medium max-sm:hidden" to="/blog">
+          <Link className="font-cutom font-medium max-sm:hidden pb-2 hover:border-b-2 hover:border-b-slate-800" to="/blog">
             Blog
           </Link>
         </div>

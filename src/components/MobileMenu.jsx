@@ -11,7 +11,7 @@ function MobileMenu() {
   };
 
   return (
-    <div className="relative sm:hidden w-full pl-4 pr-4 mt-2 bg-[#F5F0F8]">
+    <div className="relative sm:hidden w-full pl-4 pr-4 pt-2 bg-[#F5F0F8]">
         <div className="flex flex-row items-center pb-2">
       <button
         className="text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900"
