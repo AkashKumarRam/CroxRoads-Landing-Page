@@ -1,10 +1,13 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FaqBox from '../components/FaqBox';
 import FaqVector from "../assets/FaqVector.png";
 
 const Faq = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <> 
    
@@ -22,7 +25,7 @@ const Faq = () => {
       </div>
  
         {/* Faq Section */}
-        <div className="mt-28 flex flex-col items-center pb-5">
+        <div className="mt-24 max-sm:mt-20 flex flex-col items-center pb-5">
         <FaqBox
           question="What does your No-Code NFT API platform like Hexarare do?"
           answer="Our platform allows you to easily create and manage your own NFTs without any coding experience. You can mint new tokens, manage ownership and transfer them securely on the blockchain with simple REST APIs that can be implemented with minimal development and knowledge."
@@ -80,6 +83,11 @@ const Faq = () => {
           question="What is IRL Airdrop?"
           answer="IRL Airdrop refers to distribution of NFTs to user through a mobile app in real life. These are triggered from application which are accessed brand representative with credentials to brand's hexatick account."
         />
+      </div>
+      <div className='flex flex-col items-center justify-center pt-8'>
+        <h3 className='font-space text-center text-4xl max-sm:text-3xl'>Further Query</h3>
+        <p className='font-inter text-[#3E3E59] text-center pt-4 max-sm:pl-5 max-sm:pr-5'>For further query reach out to us at the below mail address</p>
+        <p className='font-poppins text-center pt-4 text-2xl pb-14 max-sm:text-xl'>humans@croxroads.app</p>
       </div>
       </div>
       <Footer/>
