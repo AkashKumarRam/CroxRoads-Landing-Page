@@ -71,6 +71,14 @@ function MobileMenu() {
               Blog
             </p>
 
+            <p
+              onClick={() => navigate("/thefuncorner")}
+              className="block font-poppins px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+              role="menuitem"
+            >
+              The Fun Corner
+            </p>
+
             {/* <Link
               to="form"
               spy={true}

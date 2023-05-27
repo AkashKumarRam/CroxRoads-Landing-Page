@@ -2,12 +2,24 @@ import React from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FaqBox from '../components/FaqBox';
+import FaqVector from "../assets/FaqVector.png";
 
 const Faq = () => {
   return (
     <> 
    
       <Navbar/>
+      <div className='bg-[#F5F0F8] pt-8'>
+      <div className='flex flex-col items-center justify-center'>
+        <div className='flex items-center justify-center'>
+          <img className='h-[30rem] max-sm:h-[10rem]' src={FaqVector} alt="faqVectorImage"/>
+        </div>
+        <div className='flex flex-col items-center justify-center pt-5'>
+          <h1 className='font-space max-sm:hidden text-center text-5xl'>Frequently asked Questions</h1>
+          <h1 className='font-space sm:hidden text-center text-3xl'>FAQs</h1>
+          <p className='font-inter pt-6 text-center max-sm:pl-4 max-sm:pr-4'>Wondering how things work at Croxroads and how can you maximize your experience?</p>
+        </div>
+      </div>
  
         {/* Faq Section */}
         <div className="mt-28 flex flex-col items-center pb-5">
@@ -68,6 +80,7 @@ const Faq = () => {
           question="What is IRL Airdrop?"
           answer="IRL Airdrop refers to distribution of NFTs to user through a mobile app in real life. These are triggered from application which are accessed brand representative with credentials to brand's hexatick account."
         />
+      </div>
       </div>
       <Footer/>
     </>

@@ -6,7 +6,7 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   return (
     <>
-      <div className="flex items-center justify-between pl-8 pr-8 h-[4rem] bg-[#F5F0F8] max-sm:hidden pt-6">
+      <div className="flex items-center justify-between pl-8 pr-8 h-[4rem] bg-[#F5F0F8] max-sm:hidden pt-6 pb-6">
         <div className="max-sm:w-full max-sm:flex max-sm:items-center max-sm:justify-center">
           <img src={CroxLogo} alt="croxLogo" />
         </div>
@@ -19,6 +19,9 @@ const Navbar = () => {
           </Link>
           <Link className="font-cutom font-medium max-sm:hidden pb-2 hover:border-b-2 hover:border-b-slate-800" to="/blog">
             Blog
+          </Link>
+          <Link className="font-cutom font-medium max-sm:hidden pb-2 hover:border-b-2 hover:border-b-slate-800" to="/thefuncorner">
+          The Fun Corner
           </Link>
         </div>
       </div>

@@ -6,12 +6,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        custom: ['Raleway'],
+        raleway: ['Raleway'],
         poppins: ['Poppins'],
         roboto: ['Roboto'],
-      },
-      fontWeight: {
-        custom: ['400', '600', '800'],
+        space:['Space Grotesk'],
+        inter:['Inter']
       },
     },
   },
