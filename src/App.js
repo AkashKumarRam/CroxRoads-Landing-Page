@@ -6,6 +6,8 @@ import TheFunCorner from "./pages/TheFunCorner";
 import Contact from "./pages/Contact";
 import TermsandCondition from "./pages/TermsandCondition";
 import Career from "./pages/Career";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import DoubleDatingArticle from "./components/DoubleDatingArticle";
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <Route path="/contact" element={<Contact/>} />
       <Route path="/career" element={<Career/>} />
       <Route path="/termsandcondition" element={<TermsandCondition/>} />
+      <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
+      <Route path="/doubledating" element={<DoubleDatingArticle/>} />
      </Routes>
    </BrowserRouter>
   );

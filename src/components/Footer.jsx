@@ -41,7 +41,7 @@ const Footer = () => {
         </h2>
         <ul className="font-poppins cursor-pointer space-y-1 text-white">
         <Link to="/"><li>Home</li></Link>
-          <Link to="/termsandcondition"><li>Privacy Policy</li></Link>
+          <Link to="/privacypolicy"><li>Privacy Policy</li></Link>
           <Link to="/termsandcondition"><li>Terms & Conditions</li></Link>
           <Link to="/career"><li>Career</li></Link>
           <Link to="/contact"><li>Contact</li></Link>
@@ -55,7 +55,7 @@ const Footer = () => {
         </h2>
         <ul className="font-poppins cursor-pointer space-y-1 text-white text-center">
           <Link to="/"><li>Home</li></Link>
-          <Link to="/termsandcondition"><li>Privacy Policy</li></Link>
+          <Link to="/privacypolicy"><li>Privacy Policy</li></Link>
           <Link to="/termsandcondition"><li>Terms & Conditions</li></Link>
           <Link to="/career"><li>Career</li></Link>
           <Link to="/contact"><li>Contact</li></Link>
