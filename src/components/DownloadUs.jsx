@@ -11,7 +11,7 @@ const DownloadUs = () => {
             <p className='text-white font-poppins text-xl'>~ Anisha & Rohini</p>
         </div>
         <div className='flex flex-col items-center justify-center space-y-8 pt-[4rem] pb-20 max-sm:flex max-sm:flex-col'>
-            <h4 className='text-center font-raleway font-semibold text-2xl'>Download us @</h4>
+            <h4 className='text-center font-raleway font-semibold text-4xl max-sm:text-3xl pb-5'>Download us @</h4>
             <div className='flex flex-row items-center justify-center space-x-5 max-sm:space-y-5 max-sm:space-x-0 max-sm:flex max-sm:flex-col'>
                 <img className='max-sm:h-[4rem]' src={GooglePlay} alt="GooglePlay"/>
                 <img className='max-sm:h-[4rem]' src={AppleStore} alt='AppleStore'/>
