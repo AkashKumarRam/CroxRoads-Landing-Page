@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
 
       <div className="space-y-4 mt-16 max-sm:text-center max-sm:mt-10">
-        <h2 className="font-poppins text-lg font-bold text-white">
+        <h2 className="font-poppins text-xl font-bold text-white">
           Get in touch
         </h2>
         <p className="font-poppins text-white">humans@croxroads.app</p>
@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-16 max-sm:hidden">
-        <h2 className="font-poppins text-lg font-bold mb-4 text-white">
+        <h2 className="font-poppins text-xl font-bold mb-4 text-white">
           Jump To
         </h2>
         <ul className="font-poppins cursor-pointer space-y-1 text-white">

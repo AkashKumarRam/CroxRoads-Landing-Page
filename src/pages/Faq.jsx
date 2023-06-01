@@ -1,7 +1,7 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import FaqBox from '../components/FaqBox';
+import FaqBox from "../components/FaqBox";
 import FaqVector from "../assets/FaqVector.png";
 
 const Faq = () => {
@@ -9,90 +9,99 @@ const Faq = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <> 
-   
-      <Navbar/>
-      <div className='bg-[#F5F0F8] pt-8'>
-      <div className='flex flex-col items-center justify-center'>
-        <div className='flex items-center justify-center'>
-          <img className='h-[30rem] max-sm:h-[10rem]' src={FaqVector} alt="faqVectorImage"/>
+    <>
+      <Navbar />
+      <div className="bg-[#F5F0F8] pt-8">
+        <div className="flex flex-col items-center justify-center">
+          <div className="flex items-center justify-center">
+            <img
+              className="h-[30rem] max-sm:h-[10rem]"
+              src={FaqVector}
+              alt="faqVectorImage"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center pt-5">
+            <h1 className="font-space max-sm:hidden text-center text-5xl">
+              Frequently asked Questions
+            </h1>
+            <h1 className="font-space sm:hidden text-center text-3xl">FAQs</h1>
+            <p className="font-inter pt-6 text-center max-sm:pl-4 max-sm:pr-4">
+              Wondering how things work at Croxroads and how can you maximize
+              your experience?
+            </p>
+          </div>
         </div>
-        <div className='flex flex-col items-center justify-center pt-5'>
-          <h1 className='font-space max-sm:hidden text-center text-5xl'>Frequently asked Questions</h1>
-          <h1 className='font-space sm:hidden text-center text-3xl'>FAQs</h1>
-          <p className='font-inter pt-6 text-center max-sm:pl-4 max-sm:pr-4'>Wondering how things work at Croxroads and how can you maximize your experience?</p>
-        </div>
-      </div>
- 
+
         {/* Faq Section */}
         <div className="mt-24 max-sm:mt-20 flex flex-col items-center pb-5">
-        <FaqBox
-          question="What does your No-Code NFT API platform like Hexarare do?"
-          answer="Our platform allows you to easily create and manage your own NFTs without any coding experience. You can mint new tokens, manage ownership and transfer them securely on the blockchain with simple REST APIs that can be implemented with minimal development and knowledge."
-        />
-        <FaqBox
-          question="What Blockchain networks do you support?"
-          answer="Currently, we support the Polygon blockchain which Layer2 scaling solution to Ethereum Blockchain. However, we are planning to add support for additional blockchains in the future."
-        />
-        <FaqBox
-          question="How can I distribute NFT from my product?"
-          answer="Your brand's NFT are managed by Hexarare Cloud service thus can be managed with simple REST APIs. Brands can trigger Hexarare APIs from within your product according to their business logic."
-        />
-        <FaqBox
-          question="What kind of APIs is provided Hexarare?"
-          answer="The basic version of our platform offers three primary API use cases. The first use case is to enable the creation of a new Ethereum wallet for a user. The second use case allows a brand to initiate a new NFT collection. The third use case involves facilitating the distribution of NFTs to user addresses."
-        />
-        <FaqBox
-          question="What is NFT Distribution?"
-          answer="NFT Distribution or Airdrop is a marketing strategy used by brand to transfer ownership of branded NFT to their users after a desire action or interaction with platform or brand. Distributing NFT to users creates reate a sense of excitement and anticipation around their brand and help build a community around the brand."
-        />
-        <FaqBox
-          question="Can my user trade the NFTs?"
-          answer="Yes, all the NFT distributed by the brand can traded by the user further. Trade can be processed through NFT marketplace in exchnage of other asset like cryptocurrency, fiat, commodities, goodwill, etc. Every trade is essentially a transfer of ownership between two parties."
-        />
-        <FaqBox
-          question="Which trading platform these NFT be available?"
-          answer="Due to the fact that non-fungible token (NFT) data is stored on the blockchain, it is possible for each NFT to be traded on various popular NFT marketplaces, including but not limited to Opensea, Looksrare, Rarible, and Blur."
-        />
-        <FaqBox
-          question="What is Artwork Library?"
-          answer="An artwork library refers to a collection of creative resources that brands can access and utilize to create their own unique non-fungible tokens (NFTs). This library may include a range of visual elements, such as images, graphics, and animations, as well as audio and video files and other multimedia resources."
-        />
-        <FaqBox
-          question="What is NFT Metadata?"
-          answer="NFT metadata refers to the information that is stored on the blockchain alongside a non-fungible token (NFT). This metadata provides additional details and context about the NFT, such as its title, description, artist, creation date, and any other relevant information.
-          The metadata for an NFT is typically stored using a standard format, such as the JSON (JavaScript Object Notation) or IPFS (InterPlanetary File System) protocols. This information is stored on the blockchain as a separate file that is linked to the NFT itself, allowing anyone to access and view the metadata associated with a particular token."
-        />
-        <FaqBox
-          question="What is Collection-Level Metadata?"
-          answer="Collection-Level Metadata refers to collection where all the NFTs have same metadata except for the artwork. Every NFT Token ID will have same description, name, external_url and other metadata"
-        />
-        <FaqBox
-          question="What is NFT-Level Metadata?"
-          answer="NFT-Level Metadata refers to the customized metadata for each NFT Token ID. This mean every NFT Token ID can have a separate description, name, exteranal_url."
-        />
-        <FaqBox
-          question="What is Custom Metadata?"
-          answer="Custom Metadata refers to additional metadata added to NFT Token which specific to business case of the brand and are not included in OpenSea Metadata standard."
-        />
-        <FaqBox
-          question="What is user license?"
-          answer="User license refers to the maximum number of users allowed to access the single brand's dashboard."
-        />
-        <FaqBox
-          question="What is IRL Airdrop?"
-          answer="IRL Airdrop refers to distribution of NFTs to user through a mobile app in real life. These are triggered from application which are accessed brand representative with credentials to brand's hexatick account."
-        />
+          <FaqBox
+            question="What is a Team Dating App?"
+            answer="A Team Dating App is a platform that allows two sets of friends to connect and arrange double dates together. It provides a fun and social way for people to meet and mingle with other like-minded individuals and couples."
+          />
+          <FaqBox
+            question="How is safer than conventional dating apps?"
+            answer="Team Dating apps are more secure than conventional dating apps since every user always have one friend all along the journey making it much more safer. Also every user is verified by expert team to check for catfishing or bots."
+          />
+          <FaqBox
+            question="How does the Team Dating App work?"
+            answer="The Double Dating App works by creating profiles for each individual or couple. Users can then search for other pairs based on shared interests, location, and preferences. Once a match is made, both pairs can chat and plan their double date through the app."
+          />
+          <FaqBox
+            question="How can I team-up with a friend?"
+            answer="It's super easy! You can team up with a friend by either using their team-up code or share your team-up code with them which they can enter while sign-up."
+          />
+          <FaqBox
+            question="Does my teammate need to be the same gender identity as me?"
+            answer="No! You can team-up with friends from opposite gender as well. While you team with opposite gender it is important to say if you guys are already a couple or not."
+          />
+          <FaqBox
+            question="Can I join if I don't have a friend to team up?"
+            answer="Yes! Croxroads has a solo mode which allows individuals to find other solo profile. Later when you have a friend to team-up with you can do that."
+          />
+          <FaqBox
+            question="Can I team up with multiple friends?"
+            answer="Yes! In Croxroads one can team-up with multiple friends and switch teams from within the application while swiping matches or group chats."
+          />
+          <FaqBox
+            question="Can I switch between solo mode and team mode?"
+            answer="Yes! You can switch between solo mode and team mode anytime in-between while using the application."
+          />
+          <FaqBox
+            question="Can I use the Team Dating App if I'm single?"
+            answer="Absolutely! The Team Dating App is designed to cater to both couples and single individuals who are interested in meeting new people and enjoying double dates. You can team up with another single friend and match up with other single teams of opposite gender mix."
+          />
+          <FaqBox
+            question="Can we use Team Dating App if we are couple"
+            answer="Yes! Croxroads also support couples who wants to meet other couples and discover teams to double date."
+          />
+          <FaqBox
+            question="Some of my friends are already using Croxroads, how can I team up with them?"
+            answer="You can request them to share their team-up code which you must enter while in sign-up procress. Once signed-up you will also have your team-up code which you can share with your who intent to pair up."
+          />
+          <FaqBox
+            question="Is it free to use?"
+            answer="Basic features in the application are free while some of the advanced features can be accessed by plus members."
+          />
+          <FaqBox
+            question="How can I be Plus member?"
+            answer="To become a plus member, you can either purchase a Plus Membership plan or pair-up with 5 friends to create 5 unique teams and avail a plus member plan for free."
+          />
+        </div>
+        <div className="flex flex-col items-center justify-center pt-8">
+          <h3 className="font-space text-center text-4xl max-sm:text-3xl">
+            Further Query
+          </h3>
+          <p className="font-inter text-[#3E3E59] text-center pt-4 max-sm:pl-5 max-sm:pr-5">
+            For further query reach out to us at the below mail address
+          </p>
+          <p className="font-poppins text-center pt-4 text-2xl pb-14 max-sm:text-xl">
+            humans@croxroads.app
+          </p>
+        </div>
       </div>
-      <div className='flex flex-col items-center justify-center pt-8'>
-        <h3 className='font-space text-center text-4xl max-sm:text-3xl'>Further Query</h3>
-        <p className='font-inter text-[#3E3E59] text-center pt-4 max-sm:pl-5 max-sm:pr-5'>For further query reach out to us at the below mail address</p>
-        <p className='font-poppins text-center pt-4 text-2xl pb-14 max-sm:text-xl'>humans@croxroads.app</p>
-      </div>
-      </div>
-      <Footer/>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Faq
+export default Faq;
